@@ -27,7 +27,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  intl: ^0.15.7
+  datetime_picker_formfield: ^1.0.0
+  # untuk SQLlite
+  sqflite: any
+  path_provider: any
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -38,17 +42,17 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
-  assets:
-    - assets/appimages/skullvaping.png
-    - assets/appimages/anggur1.png
-    - assets/appimages/anggur2.png
-    - assets/appimages/donuts1.png
-    - assets/appimages/donuts2.png
-    - assets/appimages/strawberry1.png
-    - assets/appimages/bg.jpg
-    - assets/appimages/jun.jpeg
-    - assets/appimages/strawberry2.png
+  # uses-material-design: true
+  # assets:
+  #   - assets/appimages/skullvaping.png
+  #   - assets/appimages/anggur1.png
+  #   - assets/appimages/anggur2.png
+  #   - assets/appimages/donuts1.png
+  #   - assets/appimages/donuts2.png
+  #   - assets/appimages/strawberry1.png
+  #   - assets/appimages/bg.jpg
+  #   - assets/appimages/jun.jpeg
+  #   - assets/appimages/strawberry2.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
